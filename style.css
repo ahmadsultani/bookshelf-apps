@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html, body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background: #234271;
+  padding: 12px;
+  padding-left: 24px;
+  color: white;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background-color: #fafafa;
+  width: 80%;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 2em;
+  flex-grow: 1;
+  height: fit-content;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, .3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.form-group label {
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.completed-group {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  font-weight: 600;
+}
+
+input[type=text], input[type=number] {
+  font-family: Raleway, sans-serif;
+  background-color: #fafafa;
+  border-radius: 16px;
+  border: 2px solid #fafafa;
+  border-bottom-color: #234271;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  margin: 0 8px;
+  margin-top: 2px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-submit {
+  width: fit-content;
+  font-family: Raleway, sans-serif;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  align-self: flex-end;
+  cursor: pointer;
+  background-color: rgb(35, 66, 113);
+  color: #fafafa;
+  border: 2px solid #234271;
+}
+
+.btn-submit:hover {
+  background-color: #fafafa;
+  color: #353535;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.book-section {
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  width: 100%;
+  padding: 24px;
+}
+
+.book-button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.book-button {
+  width: fit-content;
+  font-family: Raleway, sans-serif;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(35, 66, 113);
+  color: #fafafa;
+  border: 2px solid #234271;
+  margin-right: 8px;
+  padding: 4px 8px;
+}
+
+.delete-button {
+  background-color: #DD4B39;
+  border: 2px solid #DD4B39;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
